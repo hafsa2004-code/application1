@@ -150,14 +150,14 @@ class MyApp extends StatelessWidget {
                 onPressed: () {
                 },
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Color.fromARGB(255, 237, 238, 255), // Light purple background
-                  foregroundColor: Color.fromARGB(255, 94, 89, 198), // Text color
+                  backgroundColor: Color.fromARGB(255, 237, 238, 255), 
+                  foregroundColor: Color.fromARGB(255, 94, 89, 198), 
                   padding: EdgeInsets.symmetric(
                     horizontal: 35,
                     vertical: 15,
                   ),
                   shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12), // Rounded corners
+                    borderRadius: BorderRadius.circular(12), 
                   ),
                 ),
                 child: Text(
